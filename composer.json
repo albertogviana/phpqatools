@@ -1,0 +1,31 @@
+{
+    "name": "albertogviana/phpqatools",
+    "description": "A meta composer package for PHP QA Tools.",
+    "keywords": ["php", "qa", "tools", "debug"],
+    "type": "metapackage",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Alberto Viana",
+            "email": "albertogviana@gmail.com"
+        }
+    ],
+    "config": {
+        "bin-dir": "bin",
+        "vendor-dir": "vendor"
+    },
+    "require": {
+        "phpunit/phpunit": "~4.3",
+        "phploc/phploc": "~2.0",
+        "sebastian/phpcpd": "~2.0",
+        "pdepend/pdepend": "~2.0",
+        "phpmd/phpmd": "~2.1",
+        "squizlabs/php_codesniffer": "~1.5",
+        "theseer/phpdox": "~0.7"
+    },
+    "suggest": {
+        "phpdocumentor/phpdocumentor": "Documentation Generator for PHP",
+        "sensiolabs/security-checker": "A security checker for your composer.lock",
+        "mayflower/php-codebrowser": "A code browser that augments the code with information from various QA tools."
+    }
+}
